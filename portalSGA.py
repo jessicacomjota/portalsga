@@ -12,7 +12,7 @@ import streamlit.components.v1 as components
 
 st.set_page_config(
     page_title="Portal SGA",
-    page_icon="🏫",
+    page_icon="🖥️",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
