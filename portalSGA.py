@@ -42,11 +42,12 @@ IMAGEM_REPOSITORIO = PASTA_PROJETO / "repositorio.png"
 # LINKS
 # ============================================================
 
-LINK_NOTAS = "https://sgenotasalunos.streamlit.app/"
+LINK_NOTAS = "https://sgenotasalunos.streamlit.app"
 LINK_LAYERS = "https://sesiescolalayers.streamlit.app"
+LINK_BIBLIOTECA = "https://bibliotecasge.streamlit.app"
 
 # Futuramente:
-# LINK_BIBLIOTECA = "https://..."
+
 # LINK_REPOSITORIO = "https://..."
 
 
