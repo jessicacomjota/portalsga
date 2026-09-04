@@ -665,28 +665,31 @@ body {{
         <!-- =================================================
              BIBLIOTECA
              ================================================= -->
-
         <div class="sistema">
 
-            <div class="imagem-inativa">
+            <a
+                href="{LINK_BIBLIOTECA}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-imagem"
+            >
 
                 <img
                     src="data:image/png;base64,{biblioteca_base64}"
-                    alt="Biblioteca - GED"
+                    alt="Biblioteca Escolar"
                 >
 
-            </div>
+            </a>
 
             <div class="nome-sistema">
-                Biblioteca - GED
-            </div>
-
-            <div class="indisponivel">
-                Em breve
+                Biblioteca Escolar
             </div>
 
         </div>
-
+        
+        
+        
+        
 
         <!-- =================================================
              REPOSITÓRIO
