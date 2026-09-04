@@ -1,6 +1,6 @@
-
 from pathlib import Path
 import base64
+from datetime import datetime
 
 import streamlit as st
 import streamlit.components.v1 as components
@@ -47,8 +47,14 @@ LINK_LAYERS = "https://sesiescolalayers.streamlit.app"
 LINK_BIBLIOTECA = "https://bibliotecasge.streamlit.app"
 
 # Futuramente:
-
 # LINK_REPOSITORIO = "https://..."
+
+
+# ============================================================
+# ANO ATUAL
+# ============================================================
+
+ano_atual = datetime.now().year
 
 
 # ============================================================
@@ -445,7 +451,10 @@ body {{
 
     margin-top: 55px;
 
-    padding-bottom: 10px;
+    padding:
+        20px
+        10px
+        10px;
 
     font-size: 12px;
 
@@ -455,6 +464,26 @@ body {{
 
     text-shadow:
         0 1px 2px rgba(255, 255, 255, 0.8);
+
+}}
+
+
+.rodape-principal {{
+
+    color: #003B66;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+}}
+
+
+.rodape-secundario {{
+
+    color: #555;
+
+    font-size: 11px;
 
 }}
 
@@ -693,8 +722,19 @@ body {{
          ===================================================== -->
 
     <div class="rodape">
-        Portal de Acesso aos Sistemas<br>
-        Devs Jéssica Martins - Cientista da Informação
+
+        <div class="rodape-principal">
+            PORTAL DE ACESSO AOS SISTEMAS
+        </div>
+
+        <div class="rodape-secundario">
+            Devs Jéssica Martins - Cientista da Informação
+        </div>
+
+        <div class="rodape-secundario">
+            © {ano_atual} • SESI Escola SGA/RN
+        </div>
+
     </div>
 
 
